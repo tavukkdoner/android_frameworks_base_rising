@@ -660,11 +660,11 @@ java_aconfig_library {
 }
 
 // Networking
-aconfig_declarations {
-    name: "com.android.net.flags-aconfig",
-    package: "com.android.net.flags",
-    srcs: ["core/java/android/net/flags.aconfig"],
-}
+//aconfig_declarations {
+//    name: "com.android.net.flags-aconfig",
+//    package: "com.android.net.flags",
+//    srcs: ["core/java/android/net/flags.aconfig"],
+//}
 
 java_aconfig_library {
     name: "com.android.net.flags-aconfig-java",
